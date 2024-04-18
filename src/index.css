@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+/* Reset and general styles */
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+  list-style: none;
+}
+
+
+/* Typography */
+h1 {
+  font-size: 2rem;
+  word-spacing: 5px;
+  padding-top: 1rem;
+}
+
+p {
+  font-size: 13px;
+  padding: 1rem 0;
+  letter-spacing: 1px;
+}
+
+/* Input and button styling */
+input,
+select,
+button {
+  background: transparent;
+  border-radius: 5px;
+  padding: 0.6rem;
+  color: #3e3e3e;
+}
+
+input::placeholder {
+  color: #a1a0a0;
+}
+
+button {
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+/* Todo container */
+.todo {
+  width: 90%;
+  max-width: 35rem;
+  padding: 2rem;
+  margin: 5rem auto;
+  border-radius: 25px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+/* Todo input and button container */
+.todo-input-button-div,
+.todo-filtered-button,
+.todo-filter-search {
+  width: 100%;
+  background: #f6f6f6;
+  border-radius: 7px;
+  padding: 0.3rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 0.8rem;
+  border: 1px solid #ddd;
+}
+
+.todo-input-button-div button {
+  color: #3d79b1;
+  background-color: #d2e5f8;
+}
+
+.todo-filtered-button button {
+  color: #3db175;
+  background-color: #d2f8e6;
+}
+
+.check-todo {
+  color: #3db175;
+  background-color: #d2f8e6;
+}
+
+.remove-todo {
+  color: #b13d3d;
+  background-color: #f8d2d2;
+}
+
+/* Todo item */
+.todo-item {
+  width: 100%;
+  padding: 0.3rem 0.5rem;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+  transition: ease all 0.3s;
+  display: flex;
+  border: 1px solid rgb(230, 230, 230);
+}
+
+.todo-item:hover {
+  transform: translateX(3px);
+}
+
+.task-info {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  gap: 3px;
+}
+.task-info span {
+  font-size: 14px;
+  margin-left: 5px;
+}
+.task-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.task-buttons button {
+  padding: 0.4rem 0.5rem;
+
+  border-radius: 4px;
+
+  margin: 0.4rem;
+  font-size: 0.6rem;
+}
+
+/* Default styling */
+.task-text {
+  font-size: 12px;
+  margin-right: 1rem;
+}
+
+/* Styling for completed tasks */
+.completed {
+  text-decoration: line-through;
+  color: #6b7280;
+}
+
+.notes-text {
+  font-size: 0.7rem;
+  font-style: italic;
+  margin: 1rem auto;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f8f9fa;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+footer span {
+  font-weight: bold;
+  color: #333;
+}
