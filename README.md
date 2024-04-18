@@ -1,5 +1,8 @@
 # React Todo App with Redux State Management
 
+## deployed link
+https://vaibhavmali-todo-app.netlify.app/
+
 ## Overview
 
 This is a React todo application built with Redux state management, allowing users to add, view, and delete tasks. The application showcases the use of HTML, CSS, JavaScript, React components, hooks, and state management using Redux.
