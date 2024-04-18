@@ -1,6 +1,6 @@
 # React Todo App with Redux State Management
 
-## deployed link
+## Deployed link
 https://vaibhavmali-todo-app.netlify.app/
 
 ## Setup
