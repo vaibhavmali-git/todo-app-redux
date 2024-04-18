@@ -11,13 +11,13 @@ Follow these steps to set up and run the todo application:
 1. Clone the Repository:
 
 ```bash
-git clone https://github.com/your-username/your-repo.git
+git clone https://github.com/vaibhavmali-git/todo-app-redux.git
 ```
 
 2. Navigate to the Project Directory:
 
 ```bash
-cd your-repo
+cd todo-app-redux
 ```
 
 3. Install Dependencies:
@@ -29,11 +29,11 @@ npm install
 4. Run the Application:
    
 ```bash
-npm start
+npm run dev
 ```
 
 Open in Browser:
-Open http://localhost:3000 in your browser to view the application.
+Open http://localhost:5173/ in your browser to view the application.
 
 ## Usage
 Once the application is running, you can perform the following actions:
